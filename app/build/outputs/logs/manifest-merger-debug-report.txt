@@ -1,0 +1,214 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/b66710530f7f80011b8f3c4146a216eb/jetified-navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1752125458a82cddf2b355646531e91e/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/5a181d6691ebd13e54400efcaea45d82/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eb5da43f270b48146f43fc5caf4bdfa0/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/36b9137d062594aff999cbefba064d2e/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bc367285d8bd0e3765a321290c005edd/navigation-common-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eda84b1b3378fcaa7652f8614382fce5/navigation-fragment-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/331377e7533a21be08fdccab4e2945d5/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/49145172bcd2314154166fc80fad3cd9/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7540b66712c1c667dcab219cfc740bb4/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cb270380e027bbd7cd06ba0923ae5549/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/dd77a365ba06d1d862fd30e602933224/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/91b609c1b3f32ea39bee153617be75d3/navigation-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/2f5839791c2c98920e60c34a34d1d24c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bbaa0bf4ca8f75a1aecab7da7942f5a3/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d58003990c089139bd9f31a40cba8d5a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/44ab1369e73cc2f1a3580216af229ac9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/0bba15ee607e4af899519e5e7bfbb0f7/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/23065d8e65abdc7113640746dad22777/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/66f25d9b05b6c5b812efbd16c11fe704/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e55a8ceccd3083b94f7e4baa93aa4657/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/408adc178190f46463215e1b0f7227f2/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7e9d2ae084e94cc048eadcbe526c2517/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/afb5f555aa89e592b983e6ac3a0299d5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/3ae60ebfd0c52b144fd8ebd3765a6179/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d1a70dc9d74ec62ba0b47e6a1c0524af/navigation-common-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/412e4395fda063c81c4b9740fbe0aa1a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/86589a230b76c9ce1d9eae7c6f1fb4d3/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9cd7cfd9bb9b0448b181d09e93d57659/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ed2b0ad074e3289c0e70318bb9a24255/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ad036d544fae551b4f479af92e2f0aab/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bad9d75dd2fce3e278339507bcf893d5/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7f9e0a664a6ee47eb19f3addb6a636b2/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/202ca9f3516770de65cbf8dce20aacda/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e383308d848417ca9df1dbf5962c8308/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/6961066b6b2b27978a4c1efa830eac7c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cc64b3d047e79983b65254f40be8bdf3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+	xmlns:dist
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:3:5-61
+	android:versionCode
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:11-69
+dist:module
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:5-40
+	dist:instant
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:18-37
+application
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:8:5-25:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/86589a230b76c9ce1d9eae7c6f1fb4d3/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/86589a230b76c9ce1d9eae7c6f1fb4d3/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
+activity#com.example.habittimer.MainActivity
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/b66710530f7f80011b8f3c4146a216eb/jetified-navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/b66710530f7f80011b8f3c4146a216eb/jetified-navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1752125458a82cddf2b355646531e91e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1752125458a82cddf2b355646531e91e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/5a181d6691ebd13e54400efcaea45d82/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/5a181d6691ebd13e54400efcaea45d82/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eb5da43f270b48146f43fc5caf4bdfa0/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eb5da43f270b48146f43fc5caf4bdfa0/navigation-fragment-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/36b9137d062594aff999cbefba064d2e/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/36b9137d062594aff999cbefba064d2e/navigation-runtime-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bc367285d8bd0e3765a321290c005edd/navigation-common-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bc367285d8bd0e3765a321290c005edd/navigation-common-ktx-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eda84b1b3378fcaa7652f8614382fce5/navigation-fragment-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/eda84b1b3378fcaa7652f8614382fce5/navigation-fragment-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/331377e7533a21be08fdccab4e2945d5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/331377e7533a21be08fdccab4e2945d5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/49145172bcd2314154166fc80fad3cd9/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/49145172bcd2314154166fc80fad3cd9/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7540b66712c1c667dcab219cfc740bb4/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7540b66712c1c667dcab219cfc740bb4/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cb270380e027bbd7cd06ba0923ae5549/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cb270380e027bbd7cd06ba0923ae5549/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/dd77a365ba06d1d862fd30e602933224/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/dd77a365ba06d1d862fd30e602933224/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/91b609c1b3f32ea39bee153617be75d3/navigation-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/91b609c1b3f32ea39bee153617be75d3/navigation-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/2f5839791c2c98920e60c34a34d1d24c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/2f5839791c2c98920e60c34a34d1d24c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bbaa0bf4ca8f75a1aecab7da7942f5a3/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bbaa0bf4ca8f75a1aecab7da7942f5a3/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d58003990c089139bd9f31a40cba8d5a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d58003990c089139bd9f31a40cba8d5a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/44ab1369e73cc2f1a3580216af229ac9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/44ab1369e73cc2f1a3580216af229ac9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/0bba15ee607e4af899519e5e7bfbb0f7/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/0bba15ee607e4af899519e5e7bfbb0f7/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/23065d8e65abdc7113640746dad22777/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/23065d8e65abdc7113640746dad22777/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/66f25d9b05b6c5b812efbd16c11fe704/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/66f25d9b05b6c5b812efbd16c11fe704/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e55a8ceccd3083b94f7e4baa93aa4657/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e55a8ceccd3083b94f7e4baa93aa4657/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/408adc178190f46463215e1b0f7227f2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/408adc178190f46463215e1b0f7227f2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7e9d2ae084e94cc048eadcbe526c2517/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7e9d2ae084e94cc048eadcbe526c2517/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/afb5f555aa89e592b983e6ac3a0299d5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/afb5f555aa89e592b983e6ac3a0299d5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/3ae60ebfd0c52b144fd8ebd3765a6179/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/3ae60ebfd0c52b144fd8ebd3765a6179/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d1a70dc9d74ec62ba0b47e6a1c0524af/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/d1a70dc9d74ec62ba0b47e6a1c0524af/navigation-common-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/412e4395fda063c81c4b9740fbe0aa1a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/412e4395fda063c81c4b9740fbe0aa1a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/86589a230b76c9ce1d9eae7c6f1fb4d3/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/86589a230b76c9ce1d9eae7c6f1fb4d3/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9cd7cfd9bb9b0448b181d09e93d57659/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9cd7cfd9bb9b0448b181d09e93d57659/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ed2b0ad074e3289c0e70318bb9a24255/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ed2b0ad074e3289c0e70318bb9a24255/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ad036d544fae551b4f479af92e2f0aab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/ad036d544fae551b4f479af92e2f0aab/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bad9d75dd2fce3e278339507bcf893d5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/bad9d75dd2fce3e278339507bcf893d5/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7f9e0a664a6ee47eb19f3addb6a636b2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/7f9e0a664a6ee47eb19f3addb6a636b2/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/202ca9f3516770de65cbf8dce20aacda/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/202ca9f3516770de65cbf8dce20aacda/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e383308d848417ca9df1dbf5962c8308/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/e383308d848417ca9df1dbf5962c8308/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/6961066b6b2b27978a4c1efa830eac7c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/6961066b6b2b27978a4c1efa830eac7c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cc64b3d047e79983b65254f40be8bdf3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cc64b3d047e79983b65254f40be8bdf3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
