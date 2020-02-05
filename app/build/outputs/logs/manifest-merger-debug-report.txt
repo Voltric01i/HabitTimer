@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/b66710530f7f80011b8f3c4146a216eb/jetified-navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -47,31 +47,31 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/yuki/.gradle/caches/tr
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/6961066b6b2b27978a4c1efa830eac7c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cc64b3d047e79983b65254f40be8bdf3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:4:5-37
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 	xmlns:dist
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:3:5-61
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:2:11-69
 dist:module
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:5-40
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:5-40
 	dist:instant
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:18-37
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:6:18-37
 application
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:8:5-25:19
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:8:5-25:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yuki/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
@@ -83,39 +83,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/1ad8a79064de7c2571ffd7513e2f9c46/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.habittimer.MainActivity
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/8cc43592cf1c6ec32b9e4ebbff3fdafb/navigation-ui-ktx-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/b66710530f7f80011b8f3c4146a216eb/jetified-navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
@@ -202,13 +202,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/cc64b3d047e79983b65254f40be8bdf3/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yuki/.gradle/caches/transforms-2/files-2.1/9101ac91d8deebff91990b843ed39e43/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/yuki/Documents/AndroidProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
