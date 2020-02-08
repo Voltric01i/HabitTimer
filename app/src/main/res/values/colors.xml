@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+<!--    main-color-->
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#8BC34A</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+<!--    fragment_habit-->
+    <color name="fh_recently">#CF0000</color>
+    <color name="fh_normally">#7A7A7A</color>
 </resources>

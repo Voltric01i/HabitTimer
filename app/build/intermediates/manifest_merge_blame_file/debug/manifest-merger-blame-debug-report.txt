@@ -6,7 +6,7 @@
 6    android:versionName="1.0" >
 7
 8    <uses-sdk
-9        android:minSdkVersion="16"
+9        android:minSdkVersion="21"
 9-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
 10        android:targetSdkVersion="29" />
 10-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml
@@ -30,28 +30,27 @@
 20-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:12:9-54
 21        android:supportsRtl="true"
 21-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:13:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
-24        <activity
-24-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
-25            android:name="com.example.habittimer.MainActivity"
-25-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
-26            android:label="@string/app_name"
-26-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
-27            android:theme="@style/AppTheme.NoActionBar" >
-27-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
-28            <intent-filter>
-28-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:17-69
-29-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:17-77
-31-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+22        android:theme="@style/AppTheme" >
+22-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
+23        <activity
+23-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
+24            android:name="com.example.habittimer.MainActivity"
+24-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
+25            android:label="@string/app_name"
+25-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
+26            android:theme="@style/AppTheme.NoActionBar" >
+26-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
+27            <intent-filter>
+27-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:17-69
+28-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:20:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:17-77
+30-->/Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:22:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
