@@ -1,14 +1,18 @@
-package com.example.habittimer
+package com.example.habittimer.activity
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.habittimer.fragment.HabitFragment
+import com.example.habittimer.R
+import com.example.habittimer.fragment.InputHabitDialogFragment
 import com.example.habittimer.model.HabitDummy
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(),HabitFragment.OnListFragmentInteractionListener {
+class MainActivity : AppCompatActivity(),
+    HabitFragment.OnListFragmentInteractionListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,8 +20,10 @@ class MainActivity : AppCompatActivity(),HabitFragment.OnListFragmentInteraction
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                    .setAction("Action", null).show()
+            val inputHabitDialogFragment = InputHabitDialogFragment.newInstance(10)
+            inputHabitDialogFragment.show(supportFragmentManager,inputHabitDialogFragment.tag)
         }
 
     }

@@ -1,4 +1,4 @@
-package com.example.habittimer
+package com.example.habittimer.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
@@ -7,7 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 
-import com.example.habittimer.HabitFragment.OnListFragmentInteractionListener
+import com.example.habittimer.fragment.HabitFragment.OnListFragmentInteractionListener
+import com.example.habittimer.R
 import com.example.habittimer.model.HabitDummy
 
 import kotlinx.android.synthetic.main.fragment_habit.view.*
