@@ -11,9 +11,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.habittimer.R
 import com.example.habittimer.adapter.HabitRecyclerViewAdapter
-
-
-import com.example.habittimer.model.HabitDummy
+import com.example.habittimer.model.Habit
+import com.example.habittimer.util.FileAccessUtil
+import com.example.habittimer.util.MoshiUtil
+import java.util.*
 
 
 class HabitFragment : Fragment() {
@@ -45,12 +46,29 @@ class HabitFragment : Fragment() {
                     else -> GridLayoutManager(context, columnCount)
                 }
                 adapter = HabitRecyclerViewAdapter(
-                    HabitDummy.ITEMS,
+                    setDataFromFile(),
                     listener
                 )
             }
         }
         return view
+    }
+
+    fun setDataFromFile(): List<Habit>{
+        var readData = mutableListOf<Habit>()
+        
+        FileAccessUtil.readFile(context!!,"HabitList.json")?.let {
+            MoshiUtil.deserializeAsList(it,Habit::class.java)?.let {
+                readData = it.toMutableList()
+            }?: run {
+                readData.add(Habit("0","中身が空だよ",Date(),Date(),null))
+            }
+        }?: run { //First Time of App
+            FileAccessUtil.saveFile(context!!,"HabitList.json","")
+            readData.add(Habit("0","アプリを最初に起動したよ",Date(),Date(),null))
+        }
+
+        return readData
     }
 
     override fun onAttach(context: Context) {
@@ -70,7 +88,7 @@ class HabitFragment : Fragment() {
 
     interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        fun onListFragmentInteraction(item: HabitDummy.Habit?)
+        fun onListFragmentInteraction(item: Habit?)
     }
 
     companion object {

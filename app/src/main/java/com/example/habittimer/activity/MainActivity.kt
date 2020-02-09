@@ -1,14 +1,14 @@
 package com.example.habittimer.activity
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.habittimer.fragment.HabitFragment
 import com.example.habittimer.R
 import com.example.habittimer.fragment.InputHabitDialogFragment
-import com.example.habittimer.model.HabitDummy
+import com.example.habittimer.model.Habit
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(),
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(),
 
     }
 
-    override fun onListFragmentInteraction(item: HabitDummy.Habit?) {
+    override fun onListFragmentInteraction(item: Habit?) {
 
     }
 

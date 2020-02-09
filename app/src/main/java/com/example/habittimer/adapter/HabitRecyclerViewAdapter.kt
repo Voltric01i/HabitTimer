@@ -9,12 +9,11 @@ import android.widget.TextView
 
 import com.example.habittimer.fragment.HabitFragment.OnListFragmentInteractionListener
 import com.example.habittimer.R
-import com.example.habittimer.model.HabitDummy
-
+import com.example.habittimer.model.Habit
 import kotlinx.android.synthetic.main.fragment_habit.view.*
 
 class HabitRecyclerViewAdapter(
-    private val mValues: List<HabitDummy.Habit>,
+    private val mValues: List<Habit>,
     private val mListener: OnListFragmentInteractionListener?
 ) : RecyclerView.Adapter<HabitRecyclerViewAdapter.ViewHolder>() {
 
@@ -22,7 +21,7 @@ class HabitRecyclerViewAdapter(
 
     init {
         mOnClickListener = View.OnClickListener { v ->
-            val item = v.tag as HabitDummy.Habit
+            val item = v.tag as Habit
             // Notify the active callbacks interface (the activity, if the fragment is attached to
             // one) that an item has been selected.
             mListener?.onListFragmentInteraction(item)
@@ -37,7 +36,7 @@ class HabitRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = mValues[position]
-        holder.mIdView.text = item.id
+        holder.mIdView.text = item.name
         holder.mContentView.text = item.recentDo.toString()
 
         with(holder.mView) {
