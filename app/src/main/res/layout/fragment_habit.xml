@@ -94,12 +94,10 @@
         <ProgressBar
             android:id="@+id/pb_habit_remain"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="373dp"
+            android:layout_width="0dp"
             android:layout_height="18dp"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:progress="80"
             app:layout_constraintBottom_toBottomOf="parent"
