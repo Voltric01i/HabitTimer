@@ -56,16 +56,16 @@ class HabitFragment : Fragment() {
 
     fun setDataFromFile(): List<Habit>{
         var readData = mutableListOf<Habit>()
-        
+
         FileAccessUtil.readFile(context!!,"HabitList.json")?.let {
             MoshiUtil.deserializeAsList(it,Habit::class.java)?.let {
                 readData = it.toMutableList()
             }?: run {
-                readData.add(Habit("0","中身が空だよ",Date(),Date(),null))
+                readData.add(Habit("0","中身が空",Date(),Date(),null))
             }
         }?: run { //First Time of App
             FileAccessUtil.saveFile(context!!,"HabitList.json","")
-            readData.add(Habit("0","アプリを最初に起動したよ",Date(),Date(),null))
+            readData.add(Habit("0","アプリが最初に起動",Date(),Date(),null))
         }
 
         return readData

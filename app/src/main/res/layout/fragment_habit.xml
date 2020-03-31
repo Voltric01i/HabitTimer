@@ -72,7 +72,7 @@
             android:text="実行した"
             android:textAlignment="center"
             android:textAppearance="?attr/textAppearanceListItem"
-            android:textColor="@color/white"
+            android:textColor="@color/WHITE"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/pb_habit_remain"
             app:layout_constraintEnd_toEndOf="parent" />

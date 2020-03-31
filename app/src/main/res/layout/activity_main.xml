@@ -24,8 +24,8 @@
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:background="@color/colorAccent"
+        android:id="@+id/addHabit"
+        app:backgroundTint="@color/colorAccent"
         app:srcCompat="@android:drawable/ic_dialog_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

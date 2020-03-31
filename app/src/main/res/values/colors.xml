@@ -2,12 +2,13 @@
 <resources>
 
 <!--    main-color-->
-    <color name="colorPrimary">#9E9E9E</color>
-    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#9E9E9E</color>
     <color name="colorAccent">#8BC34A</color>
 
 
-    <color name="white">#FFFFFF</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
 
 <!--    fragment_habit-->
     <color name="fh_recently">#CF0000</color>
