@@ -9,7 +9,6 @@ import java.lang.StringBuilder
 object FileAccessUtil {
     fun saveFile(context: Context,fileName: String, str: String){
         try {
-            // 追記書き込みでオープン (=Context.MODE_APPEND)
             val outputStream: FileOutputStream = context.openFileOutput(fileName, Context.MODE_PRIVATE)
             outputStream.write(str.toByteArray())
             outputStream.close()

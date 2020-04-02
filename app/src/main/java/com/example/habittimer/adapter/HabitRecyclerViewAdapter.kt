@@ -48,8 +48,8 @@ class HabitRecyclerViewAdapter(
     override fun getItemCount(): Int = mValues.size
 
     inner class ViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
-        val mIdView: TextView = mView.et_habit_title
-        val mContentView: TextView = mView.et_recent_do
+        val mIdView: TextView = mView.tv_habit_title
+        val mContentView: TextView = mView.tv_recent_do
 
         override fun toString(): String {
             return super.toString() + " '" + mContentView.text + "'"

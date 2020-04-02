@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(),
     }
 
     private fun setOnClickAction(){
-        addHabit.setOnClickListener { view ->
+        fb_addHabit.setOnClickListener { view ->
             //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                    .setAction("Action", null).show()
             val inputHabitDialogFragment = InputHabitDialogFragment.newInstance()

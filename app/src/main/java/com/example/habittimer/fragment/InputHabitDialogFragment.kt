@@ -7,9 +7,13 @@ import android.view.ViewGroup
 import android.widget.EditText
 import androidx.fragment.app.DialogFragment
 import com.example.habittimer.R
+import com.example.habittimer.model.Habit
+import com.example.habittimer.util.HabitDataUtil
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_habit.*
 import kotlinx.android.synthetic.main.fragment_input_habit.*
+import java.util.*
 
 
 class InputHabitDialogFragment : BottomSheetDialogFragment() {
@@ -27,8 +31,10 @@ class InputHabitDialogFragment : BottomSheetDialogFragment() {
         setOnClickAction()
     }
     private fun setOnClickAction(){
-        saveHabit.setOnClickListener { view ->
-
+        fb_saveHabit.setOnClickListener { view ->
+            val title = et_habitTitle.text.toString()
+            val habit = Habit("0",title,Date(),Date(),null)
+            HabitDataUtil.addHabitToJson(context!!, habit)
         }
     }
 

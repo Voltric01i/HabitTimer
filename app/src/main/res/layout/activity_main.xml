@@ -24,9 +24,9 @@
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/addHabit"
+        android:id="@+id/fb_addHabit"
         app:backgroundTint="@color/colorAccent"
-        app:srcCompat="@android:drawable/ic_dialog_email"
+        app:srcCompat="@drawable/ic_plus_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
