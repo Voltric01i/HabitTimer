@@ -19,7 +19,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/et_habit_title"
+            android:id="@+id/tv_habit_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
@@ -32,7 +32,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/et_recent_do"
+            android:id="@+id/tv_recent_do"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/text_margin"
@@ -41,10 +41,10 @@
             android:text="前回の実行, 2日前"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_habit_title" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_habit_title" />
 
         <TextView
-            android:id="@+id/et_remain_time"
+            android:id="@+id/tv_remain_time"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -72,7 +72,7 @@
             android:text="実行した"
             android:textAlignment="center"
             android:textAppearance="?attr/textAppearanceListItem"
-            android:textColor="@color/white"
+            android:textColor="@color/WHITE"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/pb_habit_remain"
             app:layout_constraintEnd_toEndOf="parent" />

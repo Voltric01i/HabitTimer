@@ -1,4 +1,4 @@
-package com.example.habittimer
+package com.example.habittimer.fragment
 
 import android.content.Context
 import android.os.Bundle
@@ -9,9 +9,13 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
-
-import com.example.habittimer.model.HabitDummy
+import com.example.habittimer.R
+import com.example.habittimer.adapter.HabitRecyclerViewAdapter
+import com.example.habittimer.model.Habit
+import com.example.habittimer.util.FileAccessUtil
+import com.example.habittimer.util.HabitDataUtil
+import com.example.habittimer.util.MoshiUtil
+import java.util.*
 
 
 class HabitFragment : Fragment() {
@@ -42,10 +46,19 @@ class HabitFragment : Fragment() {
                     columnCount <= 1 -> LinearLayoutManager(context)
                     else -> GridLayoutManager(context, columnCount)
                 }
-                adapter = HabitRecyclerViewAdapter(HabitDummy.ITEMS, listener)
+                adapter = HabitRecyclerViewAdapter(
+                    setDataFromFile(),
+                    listener
+                )
             }
         }
         return view
+    }
+
+    private fun setDataFromFile(): List<Habit>{
+
+        return HabitDataUtil.readHabitList(context!!)
+
     }
 
     override fun onAttach(context: Context) {
@@ -65,7 +78,7 @@ class HabitFragment : Fragment() {
 
     interface OnListFragmentInteractionListener {
         // TODO: Update argument type and name
-        fun onListFragmentInteraction(item: HabitDummy.Habit?)
+        fun onListFragmentInteraction(item: Habit?)
     }
 
     companion object {

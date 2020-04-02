@@ -8,4 +8,11 @@
     <string name="previous">Previous</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
+
+
+<!--    fragment_input_habit-->
+    <string name="title">タイトル</string>
+    <string name="habit_cycle">習慣の周期</string>
+    <string name="habit_cycle_dummy">1週間</string>
+
 </resources>

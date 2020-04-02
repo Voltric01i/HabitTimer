@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/HabitFragment"
-        android:name="com.example.habittimer.HabitFragment"
+        android:name="com.example.habittimer.fragment.HabitFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_habit_list">
     </fragment>

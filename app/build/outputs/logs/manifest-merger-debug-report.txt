@@ -96,14 +96,14 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/yuki
 		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:14:9-40
-activity#com.example.habittimer.MainActivity
+activity#com.example.habittimer.activity.MainActivity
 ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:label
 		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:17:13-45
 	android:theme
 		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:16:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/yuki/Documents/AndroidStudioProjects/HabitTimer/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
