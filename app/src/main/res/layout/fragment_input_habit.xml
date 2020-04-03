@@ -13,18 +13,28 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="@string/title"
         android:inputType="textPersonName"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fb_saveHabit"
         app:layout_constraintEnd_toStartOf="@+id/fb_saveHabit"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
-        <requestFocus/>
+        app:layout_constraintTop_toTopOf="@+id/fb_saveHabit">
+
+        <requestFocus />
     </EditText>
 
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/divider"
+        app:layout_constraintTop_toBottomOf="@+id/fb_saveHabit"
+        tools:layout_editor_absoluteX="0dp"/>
 
     <TextView
         android:id="@+id/tv_habitCycleHint"
@@ -40,7 +50,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_habitCycle"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_habitTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fb_saveHabit"
@@ -58,14 +68,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/habit_cycle_dummy"
         android:textColor="@color/BLACK"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/fb_saveHabit"
-        app:layout_constraintTop_toBottomOf="@+id/et_habitTitle" />
+        app:layout_constraintEnd_toEndOf="@+id/fb_saveHabit"
+        app:layout_constraintStart_toStartOf="@+id/fb_saveHabit"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
