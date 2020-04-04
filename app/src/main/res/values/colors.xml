@@ -10,6 +10,8 @@
     <color name="WHITE">#FFFFFF</color>
     <color name="BLACK">#000000</color>
 
+    <color name="divider">#33000000</color>
+
 <!--    fragment_habit-->
     <color name="fh_recently">#CF0000</color>
     <color name="fh_normally">#7A7A7A</color>
