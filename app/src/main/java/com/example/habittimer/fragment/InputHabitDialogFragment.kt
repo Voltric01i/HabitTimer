@@ -35,6 +35,7 @@ class InputHabitDialogFragment : BottomSheetDialogFragment() {
             val title = et_habitTitle.text.toString()
             val habit = Habit("0",title,Date(),Date(),null)
             HabitDataUtil.addHabitToJson(context!!, habit)
+            fragmentManager!!.beginTransaction().remove(this).commit()
         }
     }
 
