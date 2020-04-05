@@ -37,6 +37,9 @@ class InputHabitDialogFragment : BottomSheetDialogFragment() {
             HabitDataUtil.addHabitToJson(context!!, habit)
             fragmentManager!!.beginTransaction().remove(this).commit()
         }
+        tv_habitCycle.setOnClickListener { view ->
+            PeriodPickerDialog.newInstance().show(fragmentManager!!.beginTransaction(), "PeriodPickerDialog")
+        }
     }
 
     companion object {

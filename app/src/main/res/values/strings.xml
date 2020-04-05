@@ -10,6 +10,13 @@
     <string name="second_fragment_label">Second Fragment</string>
 
 
+<!--    dialog_input_period-->
+    <string name="period_number_dummy">2</string>
+    <string name="period_unit_dummy">週間</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+
+
 <!--    activity_main-->
     <string name="create_habit">習慣を追加</string>
 

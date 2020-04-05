@@ -20,6 +20,22 @@
         <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
     </style>
 
+    <style name="CustomEditText" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+
+    <style name="CustomNumberPicker" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="NoLineDialog" parent = "@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">@dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/dialog_max_width_minor</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
