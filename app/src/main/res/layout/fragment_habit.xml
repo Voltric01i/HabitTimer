@@ -48,35 +48,30 @@
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="24dp"
             android:text="残り 10時間"
-            android:textSize="20sp"
-            android:textColor="@color/fh_recently"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="@color/fh_recently"
+            android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/etb_done_habit"
-            android:elevation="4dp"
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/bg_done_button_recently"
-            android:padding="5dp"
-            android:text="実行した"
+            android:layout_marginBottom="8dp"
+            android:text="@string/habit_done"
             android:textAlignment="center"
-            android:textAppearance="?attr/textAppearanceListItem"
             android:textColor="@color/WHITE"
             android:textSize="16sp"
+            app:backgroundTint="@color/fh_recently"
             app:layout_constraintBottom_toTopOf="@+id/pb_habit_remain"
-            app:layout_constraintEnd_toEndOf="parent" />
-
+            app:layout_constraintEnd_toEndOf="@+id/tv_remain_time"
+            app:layout_constraintStart_toStartOf="@+id/tv_remain_time" />
 
         <TextView
             android:id="@+id/et_habit_cycle"
@@ -86,7 +81,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginBottom="8dp"
-            android:text="周期 : 1ヶ月 "
+            android:text="周期 : 1ヶ月"
             android:textSize="14sp"
             app:layout_constraintBottom_toTopOf="@+id/pb_habit_remain"
             app:layout_constraintStart_toStartOf="parent" />
