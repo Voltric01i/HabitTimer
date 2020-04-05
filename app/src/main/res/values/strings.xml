@@ -10,6 +10,12 @@
     <string name="second_fragment_label">Second Fragment</string>
 
 
+<!--    activity_main-->
+    <string name="create_habit">習慣を追加</string>
+
+<!--    fragment_habit-->
+    <string name="habit_done">実行した</string>
+
 <!--    fragment_input_habit-->
     <string name="title">タイトル</string>
     <string name="habit_cycle">習慣の周期</string>

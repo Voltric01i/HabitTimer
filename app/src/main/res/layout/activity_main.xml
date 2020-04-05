@@ -23,14 +23,19 @@
 
     <include layout="@layout/content_main" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/fb_addHabit"
-        app:backgroundTint="@color/colorAccent"
-        app:srcCompat="@drawable/ic_plus_light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorAccent"
+        app:icon="@drawable/ic_plus_light"
+        app:iconTint="@color/WHITE"
+        app:strokeColor="@color/WHITE"
+        android:textColor="@color/WHITE"
+        android:text="@string/create_habit"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
         android:layout_gravity="bottom|center"
-        android:layout_margin="@dimen/fab_margin"
         />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
