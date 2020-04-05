@@ -64,6 +64,7 @@ class PeriodPickerDialog : DialogFragment() {
         v.np_number.maxValue = 24
         v.np_number.minValue = 1
 
+        v.tv_period_number.text = v.np_number.value.toString()
         v.np_number.setOnValueChangedListener { numberPicker, oldVal, newVal ->
             v.tv_period_number.textSize = 60.0f
             v.tv_period_unit.textSize = 30.0f
@@ -82,7 +83,9 @@ class PeriodPickerDialog : DialogFragment() {
         v.np_unit.minValue = 0
         v.np_unit.maxValue = unit.size-1
 
+
         v.np_unit.displayedValues = unit
+        v.tv_period_unit.text = unit.get(v.np_unit.value)
         v.np_unit.setOnValueChangedListener { numberPicker, oldVal, newVal ->
             v.tv_period_unit.textSize = 60.0f
             v.tv_period_number.textSize = 30.0f
