@@ -82,12 +82,11 @@
         android:id="@+id/tv_period_ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/ok"
         android:textColor="@color/colorAccentDark"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -98,8 +97,7 @@
         android:layout_marginEnd="24dp"
         android:text="@string/cancel"
         android:textColor="@color/colorAccentDark"
-        android:textSize="18sp"
-        android:textStyle="bold"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/tv_period_ok"
         app:layout_constraintEnd_toStartOf="@+id/tv_period_ok" />
 
