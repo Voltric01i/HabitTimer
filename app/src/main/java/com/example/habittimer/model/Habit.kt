@@ -16,8 +16,11 @@ data class Habit(
 
     val recentDo: Date,
 
-    val cycle: Date,
+    val cycle: Int,
 
     val state: HabitState?  //Todo ステート判定
+
+
+//    fun
 
 ): Serializable

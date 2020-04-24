@@ -9,6 +9,7 @@
 
 
     <color name="WHITE">#FFFFFF</color>
+    <color name="GRAY">#86FFFFFF</color>
     <color name="BLACK">#000000</color>
 
     <color name="divider">#33000000</color>
