@@ -5,9 +5,11 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#9E9E9E</color>
     <color name="colorAccent">#8BC34A</color>
+    <color name="colorAccentDark">#689F38</color>
 
 
     <color name="WHITE">#FFFFFF</color>
+    <color name="GRAY">#86FFFFFF</color>
     <color name="BLACK">#000000</color>
 
     <color name="divider">#33000000</color>

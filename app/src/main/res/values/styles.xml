@@ -14,11 +14,24 @@
         <item name="cornerSize">36dp</item>
     </style>
 
-    <style name="DialogStyle" parent="AppTheme">
-        <item name="android:windowIsFloating">false</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+
+    <style name="AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarNegativeButtonStyle">@style/ButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ButtonStyle</item>
     </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomEditText" parent="AppTheme">
+        <item name="colorAccent">@color/colorAccentDark</item>
+    </style>
+
+    <style name="CustomNumberPicker" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+    </style>
+
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>

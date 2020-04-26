@@ -3,11 +3,15 @@ package com.example.habittimer.model
 import java.io.Serializable
 import java.util.*
 
+
+
 enum class HabitState {
-    Nomally,
-    Recently,
-    Past
+    NORMALY,
+    RECENTLY,
+    PAST
 }
+
+
 data class Habit(
 
     val id: String, //Todo なぜidが必要か検証
@@ -16,8 +20,8 @@ data class Habit(
 
     val recentDo: Date,
 
-    val cycle: Date,
+    val cycle: Cycle,
 
-    val state: HabitState?  //Todo ステート判定
+    val state: HabitState?
 
 ): Serializable
