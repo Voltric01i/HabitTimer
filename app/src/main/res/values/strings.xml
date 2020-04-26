@@ -26,6 +26,6 @@
 <!--    fragment_input_habit-->
     <string name="title">タイトル</string>
     <string name="habit_cycle">習慣の周期</string>
-    <string name="habit_cycle_dummy">1週間</string>
+    <string name="habit_cycle_dummy">1日</string>
 
 </resources>

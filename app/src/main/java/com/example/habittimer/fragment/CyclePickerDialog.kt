@@ -1,104 +1,85 @@
 package com.example.habittimer.fragment
 
-import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import android.view.Window
 import androidx.fragment.app.DialogFragment
-import com.example.habittimer.R
 import kotlinx.android.synthetic.main.dialog_input_cycle.view.*
 import kotlinx.android.synthetic.main.dialog_input_cycle.view.np_number
-import android.app.Activity
-import android.content.Context
-import kotlinx.android.synthetic.main.dialog_input_cycle.*
-import kotlinx.android.synthetic.main.dialog_input_cycle.view.tv_cycle_ok
-import kotlinx.android.synthetic.main.fragment_input_habit.*
+import com.example.habittimer.R
+import com.example.habittimer.model.Cycle
+import com.example.habittimer.model.DateUnit
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+
 
 class CyclePickerDialog : DialogFragment() {
-//    private lateinit var dialog: AlertDialog
+    val ARG_NAME_NUMBER = "CYCLE_NUMBER"
+    val ARG_NAME_UNIT = "CYCLE_UNIT"
+
     private val unit = arrayOf("日","週","ヶ月","年")
-    private var listener: OnFragmentInteractionListener? = null
+    //TODO これはあたまがよくない
+    private var cycle = Cycle(1,DateUnit.DAY)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return null
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        listener = context as? OnFragmentInteractionListener
-    }
 
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val activity = activity ?: return super.onCreateDialog(savedInstanceState)
-        val v = activity.layoutInflater.inflate(R.layout.dialog_input_cycle, null)
+        val builder = MaterialAlertDialogBuilder(activity,R.style.AlertDialog)
+        initArgValue()
 
-        val dialog = Dialog(context!!)
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        dialog.setContentView(v)
+        activity?.let {
+            val view = it.layoutInflater.inflate(R.layout.dialog_input_cycle, null)
+            initNumberPicker(view)
+            initUnitPicker(view)
+            builder.setView(view)
+                .setPositiveButton(R.string.ok) { _, _->
+                    val number = view.np_number.value
+                    val unit = view.np_unit.value
+                    cycle = Cycle.fromId(number,unit)
 
-        initNumberPicker(v)
-        initUnitPicker(v)
-        v.tv_cycle_cancel.setOnClickListener{
-            dialog.dismiss()
+                    val intent = Intent()
+                    intent.putExtra(ARG_NAME_NUMBER, cycle.number)
+                    intent.putExtra(ARG_NAME_UNIT, cycle.dateUnit.id)
+                    targetFragment!!.onActivityResult(targetRequestCode, -1, intent)
+                }
+                .setNegativeButton(R.string.cancel) { _, _->
+
+                }
         }
-        v.tv_cycle_ok.setOnClickListener {
-            val num = v.tv_cycle_number.text.toString()
-            val unit = v.tv_cycle_unit.text.toString()
-            listener?.onClickConfirmOk(num + unit)
-            dialog.dismiss()
-        }
+        return builder.create()
 
-        val alert = AlertDialog.Builder(this.activity)
-            .setPositiveButton(v.tv_cycle_ok.id) { _, _ ->
 
-            }
-            .setNegativeButton(v.tv_cycle_cancel.id) { _, _ ->
-//                listener?.onClickConfirmCancel(confirmType)
-            }
-            .setOnCancelListener { dialog ->
-                // キャンセルされた場合に実行される処理
-            }
-            .setOnDismissListener { dialog ->
-                // ダイアログが閉じた場合に実行される処理。キャンセルされた場合にも呼び出される
-            }
-        alert.setView(v)
-
-        dialog.show()
-        dialog.window!!.setLayout(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT)
-        return dialog
     }
 
+    private fun initArgValue(){
+        val argNumber = arguments!!.getInt(ARG_NAME_NUMBER,1)
+        val argUnit = arguments!!.getInt(ARG_NAME_UNIT,0)
+
+        cycle = Cycle.fromId(argNumber,argUnit)
+    }
 
     private fun initNumberPicker(v: View){
-        v.np_number.wrapSelectorWheel = true
-        v.np_number.value = 1
+        v.np_number.value = cycle.number
+        //TODO 初期値を入れてもNumber Pickerに反映されない
         v.np_number.maxValue = 24
         v.np_number.minValue = 1
 
         v.tv_cycle_number.text = v.np_number.value.toString()
         v.np_number.setOnValueChangedListener { numberPicker, oldVal, newVal ->
+
             v.tv_cycle_number.setTextColor(resources.getColor(R.color.WHITE))
             v.tv_cycle_unit.setTextColor(resources.getColor(R.color.GRAY))
             v.tv_cycle_number.text = newVal.toString()
-        }
-        v.np_unit.setOnFocusChangeListener { view, b ->
-            //            v.np_unit.outlineSpotShadowColor(resources.getColor(R.color.colorAccent))
 
         }
+
     }
 
     private fun initUnitPicker(v: View){
-        v.np_unit.wrapSelectorWheel = false
-        v.np_unit.value = 0
-        v.np_unit.wrapSelectorWheel
+        v.np_unit.value = cycle.dateUnit.id
+        //TODO 初期値を入れてもNumber Pickerに反映されない
         v.np_unit.minValue = 0
-        v.np_unit.maxValue = unit.size-1
-
+        v.np_unit.maxValue = DateUnit.values().size-1
 
         v.np_unit.displayedValues = unit
         v.tv_cycle_unit.text = unit.get(v.np_unit.value)
@@ -107,22 +88,7 @@ class CyclePickerDialog : DialogFragment() {
             v.tv_cycle_number.setTextColor(resources.getColor(R.color.GRAY))
             v.tv_cycle_unit.text = unit.get(newVal)
         }
-//        v.np_unit.setOnTouchListener { view, motionEvent ->
-//
-//        }
-        v.np_unit.setOnFocusChangeListener { view, b ->
-//            v.np_unit.outlineSpotShadowColor(resources.getColor(R.color.colorAccent))
 
-        }
-    }
-
-    fun setListener(listener: OnFragmentInteractionListener){
-        this.listener = listener
-    }
-
-    interface OnFragmentInteractionListener {
-        fun onClickConfirmOk(string: String)
-//        fun onClickConfirmCancel()
     }
 
     companion object {
