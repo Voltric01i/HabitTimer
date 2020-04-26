@@ -11,6 +11,7 @@ import com.example.habittimer.fragment.HabitFragment.OnListFragmentInteractionLi
 import com.example.habittimer.R
 import com.example.habittimer.model.Habit
 import kotlinx.android.synthetic.main.fragment_habit.view.*
+import kotlinx.android.synthetic.main.fragment_input_habit.view.*
 
 class HabitRecyclerViewAdapter(
     private val mValues: List<Habit>,
@@ -38,6 +39,7 @@ class HabitRecyclerViewAdapter(
         val item = mValues[position]
         holder.mIdView.text = item.name
         holder.mContentView.text = item.recentDo.toString()
+        holder.mCycleView.text = "周期 : " + item.cycle.getStringWithUnit()
 
         with(holder.mView) {
             tag = item
@@ -50,6 +52,7 @@ class HabitRecyclerViewAdapter(
     inner class ViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
         val mIdView: TextView = mView.tv_habit_title
         val mContentView: TextView = mView.tv_recent_do
+        val mCycleView: TextView = mView.tv_habit_cycle_view
 
         override fun toString(): String {
             return super.toString() + " '" + mContentView.text + "'"
