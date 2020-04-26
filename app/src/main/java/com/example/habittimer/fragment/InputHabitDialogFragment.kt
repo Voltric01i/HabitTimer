@@ -45,7 +45,7 @@ class InputHabitDialogFragment : BottomSheetDialogFragment() {
         }
 
 
-        tv_habit_cycle.setOnClickListener { view ->
+        ll_input_cycle.setOnClickListener { view ->
             val dialog = CyclePickerDialog()
 
             val arg = Bundle()
